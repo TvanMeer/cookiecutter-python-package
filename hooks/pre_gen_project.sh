@@ -2,24 +2,19 @@
 
 
 # Upgrade pip
-python3 -m pip install --upgrade pip
+python3.10 -m pip install --upgrade pip
 
 # Install virtualenv
-pip3 install virtualenv
+pip3.10 install virtualenv
 
 # Create python virtualenv .venv
-python3 -m venv .venv
-
-# Activate .venv
-source .venv/bin/activate
+python3.10 -m venv .venv
 
 # Upgrade pip
-pip install --upgrade pip
+.venv/bin/python -m pip install --upgrade pip
 
 # Upgrade setuptools
-pip install --upgrade setuptools
+.venv/bin/python -m pip install --upgrade setuptools
 
-# Deactivate .venv
-deactivate
 
 exit 0

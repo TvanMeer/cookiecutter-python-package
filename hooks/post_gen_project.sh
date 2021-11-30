@@ -1,6 +1,9 @@
 #!/bin/bash
 
 
+echo "Installing dependencies with poetry..."
+
+
 # Install dependencies
 poetry install
 
