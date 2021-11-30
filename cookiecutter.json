@@ -2,5 +2,6 @@
     "project_name": "my_pypackage",
     "project_description": "A demo python package, generated with cookiecutter-python-package.",
     "author_name": "John Doe",
-    "author_email": "johndoe@example.com"
+    "author_email": "johndoe@example.com",
+    "author_github_name": "johnnyDoe"
 }

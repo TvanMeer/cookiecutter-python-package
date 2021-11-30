@@ -3,12 +3,16 @@ name = "{{cookiecutter.project_name}}"
 version = "0.1.0"
 description = "{{cookiecutter.project_description}}"
 authors = ["{{cookiecutter.author_name}} <{{cookiecutter.author_email}}>"]
+license = "MIT"
+readme = "README.md"
+homepage = "https://github.com/{{cookiecutter.author_github_name}}/{{cookiecutter.project_name}}"
+repository = "https://github.com/{{cookiecutter.author_github_name}}/{{cookiecutter.project_name}}.git"
 
 [tool.poetry.dependencies]
-python = "^3.8"
+python = "^3.10"
 
 [tool.poetry.dev-dependencies]
-pytest = "^5.2"
+pytest = "6.2.5"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
