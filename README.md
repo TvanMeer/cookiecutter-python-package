@@ -27,7 +27,7 @@ And of course also install [cookiecutter](https://cookiecutter.readthedocs.io/en
 Open a terminal and paste the following command:
 
 ```
-$ cookiecutter gh:TvanMeer/cookiecutter-python-package.git
+$ cookiecutter gh:TvanMeer/cookiecutter-python-package
 ```
 It will ask you to enter a bunch of variable names and then runs the installer.
 
