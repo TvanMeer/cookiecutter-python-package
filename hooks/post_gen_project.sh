@@ -20,6 +20,7 @@ echo "Project created succesfully!"
 # Open fresh project in Vscode
 if ! command -v code &> /dev/null
 then
+    echo "Trying to open Vscode..."
+    code .
     exit
 fi
-code .
