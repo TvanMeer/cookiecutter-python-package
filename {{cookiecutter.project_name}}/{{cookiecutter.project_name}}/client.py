@@ -1,5 +1,5 @@
-from module1.entrypoint1 import X
-from module2.entrypoint2 import Y
+from .module1.entrypoint1 import X
+from .module2.entrypoint2 import Y
 
 class Client:
     def func_1(self):
