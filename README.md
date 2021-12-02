@@ -4,7 +4,7 @@ A scaffolding tool that creates boilerplate code for a python package.
 
 ## Description
 
-`cookiecutter-python-package` creates a project layout and builds a virtual invironment within the project folder. It then installs and configures all development dependencies, generates a poetry.lock file, a test build in the dist folder, and installs your package within the virtualenv.
+`cookiecutter-python-package` creates a project layout and builds a virtual environment within the projects root folder. It then installs and configures all development dependencies, generates a poetry.lock file, a test build in the dist folder, and installs your package within the virtualenv.
 
 
 ## Features
@@ -18,7 +18,7 @@ A scaffolding tool that creates boilerplate code for a python package.
 
 ## Installation
 
-Make sure [poetry](https://https://python-poetry.org/docs/#installation) is installed.
+Make sure [poetry](https://python-poetry.org/docs/#installation) is installed.
 And of course also install [cookiecutter](https://cookiecutter.readthedocs.io/en/1.7.2/installation.html). They should be callable in the terminal as `poetry` and `cookiecutter`.
 
 
