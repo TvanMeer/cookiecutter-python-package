@@ -11,5 +11,5 @@ class Client:
     def func_2(self):
         y = Y()
         succes = y.do_something()
-        print(f"Function func_2 on entrypoint2.Y.do_something().")
+        print(f"Function func_2 called entrypoint2.Y.do_something().")
         return succes
