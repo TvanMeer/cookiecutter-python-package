@@ -15,3 +15,11 @@ poetry lock
 
 
 echo "Project created succesfully!"
+
+
+# Open fresh project in Vscode
+if ! command -v code &> /dev/null
+then
+    exit
+fi
+code .
