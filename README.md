@@ -45,4 +45,4 @@ Then the installer runs and the new project opens in Vscode.
 
 ## Portability
 
-Requires the bash shell. Should run on all operating systems, but I have only tested it on Ubuntu Linux.
+Should run on all operating systems, but I have only tested it on Linux.
