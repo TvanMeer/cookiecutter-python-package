@@ -7,14 +7,11 @@
         {
             "name": "Python: Current File",
             "type": "python",
+            "justMyCode": true,
             "request": "launch",
-            "envFile": "${workspaceFolder}/.venv",
             "program": "${file}",
-            "console": "internalConsole",
-            "autoReload": {
-                "enable": true
-            },
-            "justMyCode": true
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}"
         }
     ]
 }
