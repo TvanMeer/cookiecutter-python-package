@@ -1,6 +1,9 @@
 {
+    //
+    // Python settings
     "python.pythonPath": ".venv/bin/python",
     "python.envFile": "${workspaceFolder}/.venv",
+    "python.analysis.typeCheckingMode": "basic",
     "python.testing.pytestArgs": [
         "tests"
     ],
@@ -12,19 +15,35 @@
         "--line-length",
         "88"
     ],
-    "editor.formatOnSave": true,
-    "editor.codeActionsOnSave": {
-        "source.organizeImports": true
-    },
     "python.linting.enabled": true,
     "python.linting.pylintEnabled": true,
     "python.linting.pylintPath": ".venv/bin/pylint",
     "python.linting.lintOnSave": true,
+    //
+    //General settings
     "files.exclude": {
         "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
         "**/.DS_Store": true,
-        "**/.pytest_cache": true,
-        "**/__pycache__": true,
-        ".venv": true,
-    }
+        "**/Thumbs.db": true,
+        ".venv": true
+    },
+    "editor.cursorStyle": "block",
+    "editor.cursorBlinking": "solid",
+    "editor.minimap.enabled": false,
+    "editor.folding": false,
+    "editor.glyphMargin": false,
+    "editor.scrollbar.vertical": "hidden",
+    "breadcrumbs.enabled": false,
+    "editor.dragAndDrop": false,
+    "editor.emptySelectionClipboard": false,
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+        "source.organizeImports": true
+    },
+    "workbench.editor.decorations.badges": false,
+    "workbench.editor.enablePreview": false,
+    "workbench.welcomePage.preferReducedMotion": true
 }
