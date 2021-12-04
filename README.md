@@ -20,7 +20,7 @@ full development environment setup with a base project layout so you can get sta
 - [Pytest](https://docs.pytest.org/en/6.2.x/) setup and configuration
 - [Black](https://black.readthedocs.io/en/stable/) + [iSort](https://pycqa.github.io/isort/) code formatters setup and configuration
 - [Pylint](https://pylint.pycqa.org/en/latest/intro.html#what-is-pylint) setup and configuration
-- [Vscode](https://code.visualstudio.com/docs/python/settings-reference) configuration
+- [Vscode](https://code.visualstudio.com/docs/getstarted/settings) configuration
 
 ## Installation
 
