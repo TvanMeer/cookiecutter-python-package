@@ -32,6 +32,8 @@
         "**/CVS": true,
         "**/.DS_Store": true,
         "**/Thumbs.db": true,
+        ".pytest_cache": true,
+        "**/__pycache__": true,
         ".venv": true
     },
     // When enabled, insert a final new line at the end of the file when saving it.
@@ -91,8 +93,4 @@
     // Preview editors do not keep open and are reused until explicitly set to be kept open 
     // (e.g. via double click or editing) and show up with an italic font style.
     "workbench.editor.enablePreview": false,
-    // When enabled, reduce motion in welcome page.
-    "workbench.welcomePage.preferReducedMotion": true,
-    // When enabled, an extension's walkthrough will open upon install the extension.
-    "workbench.welcomePage.walkthroughs.openOnInstall": true,
 }
