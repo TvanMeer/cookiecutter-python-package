@@ -21,6 +21,10 @@
     "python.linting.lintOnSave": true,
     //
     //General settings
+    ///////////////////////////////////////////////////////////
+    // Configure glob patterns for excluding files and folders. 
+    // For example, the file Explorer decides which files and folders to show or hide based on this setting. 
+    // Refer to the `search.exclude` setting to define search specific excludes.
     "files.exclude": {
         "**/.git": true,
         "**/.svn": true,
@@ -30,20 +34,65 @@
         "**/Thumbs.db": true,
         ".venv": true
     },
-    "editor.cursorStyle": "block",
-    "editor.cursorBlinking": "solid",
-    "editor.minimap.enabled": false,
-    "editor.folding": false,
-    "editor.glyphMargin": false,
-    "editor.scrollbar.vertical": "hidden",
+    // When enabled, insert a final new line at the end of the file when saving it.
+    "files.insertFinalNewline": false,
+    // Enable/disable navigation breadcrumbs.
     "breadcrumbs.enabled": false,
+    //
+    //
+    // Controls the cursor style.
+    "editor.cursorStyle": "block",
+    // Control the cursor animation style.
+    "editor.cursorBlinking": "solid",
+    // Controls whether the minimap is shown.
+    "editor.minimap.enabled": false,
+    // Controls whether the editor has code folding enabled.
+    "editor.folding": false,
+    // Controls whether the editor should render the vertical glyph margin. 
+    // Glyph margin is mostly used for debugging.
+    "editor.glyphMargin": false,
+    // Controls the visibility of the vertical scrollbar.
+    //  - auto: The vertical scrollbar will be visible only when necessary.
+    //  - visible: The vertical scrollbar will always be visible.
+    //  - hidden: The vertical scrollbar will always be hidden.
+    "editor.scrollbar.vertical": "hidden",
+    // Controls whether the editor should allow moving selections via drag and drop.
     "editor.dragAndDrop": false,
+    // Controls whether copying without a selection copies the current line.
     "editor.emptySelectionClipboard": false,
+    // Format a file on save. A formatter must be available, the file must not be saved after delay, 
+    // and the editor must not be shutting down.
     "editor.formatOnSave": true,
+    // Code action kinds to be run on save.
     "editor.codeActionsOnSave": {
         "source.organizeImports": true
     },
+    //
+    //
+    // Controls whether the explorer should render folders in a compact form. 
+    // In such a form, single child folders will be compressed in a combined tree element. Useful for Java package structures, for example.
+    "explorer.compactFolders": false,
+    // Controls whether file decorations should use badges.
+    "explorer.decorations.badges": true,
+    // Controls the property-based sorting of files and folders in the explorer.
+    //  - default: Files and folders are sorted by their names. Folders are displayed before files.
+    //  - mixed: Files and folders are sorted by their names. Files are interwoven with folders.
+    //  - filesFirst: Files and folders are sorted by their names. Files are displayed before folders.
+    //  - type: Files and folders are grouped by extension type then sorted by their names. Folders are displayed before files.
+    //  - modified: Files and folders are sorted by last modified date in descending order. Folders are displayed before files.
+    "explorer.sortOrder": "filesFirst",
+    //
+    //
+    // Controls the visibility of the status bar at the bottom of the workbench.
+    "workbench.statusBar.visible": false,
+    // Controls whether editor file decorations should use badges.
     "workbench.editor.decorations.badges": false,
+    // Controls whether opened editors show as preview. 
+    // Preview editors do not keep open and are reused until explicitly set to be kept open 
+    // (e.g. via double click or editing) and show up with an italic font style.
     "workbench.editor.enablePreview": false,
-    "workbench.welcomePage.preferReducedMotion": true
+    // When enabled, reduce motion in welcome page.
+    "workbench.welcomePage.preferReducedMotion": true,
+    // When enabled, an extension's walkthrough will open upon install the extension.
+    "workbench.welcomePage.walkthroughs.openOnInstall": true,
 }
