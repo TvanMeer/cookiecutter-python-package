@@ -27,8 +27,9 @@
     "python.linting.enabled": true,
     "python.linting.lintOnSave": true,
     "python.linting.ignorePatterns": [
-        "**.venv/**/*.py",
-        ".vscode/*.py"
+        ".venv/**/*.py",
+        ".vscode/*.py",
+        "tests"
     ],
     "python.linting.pylintEnabled": true,
     "python.linting.pylintPath": "${workspaceFolder}/.venv/bin/pylint",
