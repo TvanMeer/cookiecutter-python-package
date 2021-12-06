@@ -44,8 +44,8 @@ target-version = ['py310']
 profile = "black"
 
 [tool.pylint.messages_control]
-max-line-length = {{cookiecutter.editor_line_length}}disable = "C0330, C0326"
-
+max-line-length = {{cookiecutter.editor_line_length}}
+disable = "C0330, C0326"
 
 [build-system]
 build-backend = "poetry.core.masonry.api"
