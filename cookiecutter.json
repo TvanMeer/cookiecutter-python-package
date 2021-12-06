@@ -3,5 +3,6 @@
     "project_description": "A demo python package, generated with cookiecutter-python-package.",
     "author_name": "John Doe",
     "author_email": "johndoe@example.com",
-    "author_github_name": "johnnyDoe"
+    "author_github_name": "johnnyDoe",
+    "editor_line_length": 88
 }

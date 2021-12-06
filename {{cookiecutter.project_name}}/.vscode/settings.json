@@ -15,7 +15,7 @@
     "python.formatting.blackPath": ".venv/bin/black",
     "python.formatting.blackArgs": [
         "--line-length",
-        "88"
+        "{{cookiecutter.editor_line_length}}"
     ],
     // Isort to sort import statements
     "python.sortImports.path": ".venv/bin/isort",
