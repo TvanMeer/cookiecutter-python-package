@@ -1,7 +1,7 @@
 {
     //
     // Python Vscode extention settings
-    "python.pythonPath": ".venv/bin/python",
+    "python.pythonPath": "${workspaceFolder}.venv/bin/python",
     "python.envFile": "${workspaceFolder}/.venv",
     "python.poetryPath": "poetry",
     "python.analysis.typeCheckingMode": "basic",
@@ -9,16 +9,16 @@
     // Pytest
     "python.testing.unittestEnabled": false,
     "python.testing.pytestEnabled": true,
-    "python.testing.pytestPath": ".venv/bin/pytest",
+    "python.testing.pytestPath": "${workspaceFolder}.venv/bin/pytest",
     // Black formatter
     "python.formatting.provider": "black",
-    "python.formatting.blackPath": ".venv/bin/black",
+    "python.formatting.blackPath": "${workspaceFolder}.venv/bin/black",
     "python.formatting.blackArgs": [
         "--line-length",
         "{{cookiecutter.editor_line_length}}"
     ],
     // Isort to sort import statements
-    "python.sortImports.path": ".venv/bin/isort",
+    "python.sortImports.path": "${workspaceFolder}.venv/bin/isort",
     "python.sortImports.args": [
         "--profile",
         "black"
@@ -31,7 +31,7 @@
         ".vscode/*.py"
     ],
     "python.linting.pylintEnabled": true,
-    "python.linting.pylintPath": ".venv/bin/pylint",
+    "python.linting.pylintPath": "${workspaceFolder}.venv/bin/pylint",
     //
     //
     //General settings
