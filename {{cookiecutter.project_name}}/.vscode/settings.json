@@ -110,5 +110,18 @@
     // Plugin settings
     //////////////////////////////////////////////////////////////////////
     //
+    // Coderunner
+    // 
+    "code-runner.defaultLanguage": "python",
+    // To set whether to clear previous output before each run (default is false):
+    "code-runner.clearPreviousOutput": false,
+    // To set whether to save the current file before running (default is false):
+    "code-runner.saveFileBeforeRun": false,
+    // 
+    "code-runner.cwd": "${workspaceRoot}",
+    // Enable telemetry
+    "code-runner.enableAppInsights": false,
+    //
+    // Gitlens
     //
 }
