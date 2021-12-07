@@ -65,9 +65,6 @@
     "editor.minimap.enabled": false,
     // Controls whether the editor has code folding enabled.
     "editor.folding": false,
-    // Controls whether the editor should render the vertical glyph margin. 
-    // Glyph margin is mostly used for debugging.
-    "editor.glyphMargin": false,
     // Controls the visibility of the vertical scrollbar.
     //  - auto: The vertical scrollbar will be visible only when necessary.
     //  - visible: The vertical scrollbar will always be visible.
@@ -113,6 +110,5 @@
     // Plugin settings
     //////////////////////////////////////////////////////////////////////
     //
-    // Gitlens
-    "gitlens.statusBar": false,
+    //
 }
