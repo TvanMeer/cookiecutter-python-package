@@ -12,6 +12,17 @@
             "program": "${file}",
             "console": "integratedTerminal",
             "cwd": "${workspaceFolder}"
+        },
+        {
+            "name": "Python: All debug Options",
+            "type": "python",
+            "request": "launch",
+            "pythonPath": "${config:python.pythonPath}",
+            "program": "${file}",
+            "envFile": "${workspaceFolder}/.env",
+            "debugOptions": [
+                "RedirectOutput"
+            ]
         }
     ]
 }
