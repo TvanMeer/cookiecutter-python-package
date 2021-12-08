@@ -1,6 +1,8 @@
 {
     //
     // Python Vscode extention settings
+    //
+    //
     "python.pythonPath": "${workspaceFolder}/.venv/bin/python",
     "python.envFile": "${workspaceFolder}/.venv",
     "python.poetryPath": "poetry",
@@ -8,6 +10,7 @@
     "python.analysis.completeFunctionParens": true,
     // Pytest
     "python.testing.unittestEnabled": false,
+    "python.testing.nosetestsEnabled": false,
     "python.testing.pytestEnabled": true,
     "python.testing.pytestPath": "${workspaceFolder}/.venv/bin/pytest",
     // Black formatter
@@ -35,8 +38,9 @@
     "python.linting.pylintPath": "${workspaceFolder}/.venv/bin/pylint",
     //
     //
-    //General settings
-    ///////////////////////////////////////////////////////////
+    // General settings
+    //
+    //
     // Configure glob patterns for excluding files and folders. 
     // For example, the file Explorer decides which files and folders to show or hide based on this setting. 
     // Refer to the `search.exclude` setting to define search specific excludes.
@@ -106,22 +110,5 @@
     // (e.g. via double click or editing) and show up with an italic font style.
     "workbench.editor.enablePreview": false,
     //
-    //
-    // Plugin settings
-    //////////////////////////////////////////////////////////////////////
-    //
-    // Coderunner
-    // 
-    "code-runner.defaultLanguage": "python",
-    // To set whether to clear previous output before each run (default is false):
-    "code-runner.clearPreviousOutput": false,
-    // To set whether to save the current file before running (default is false):
-    "code-runner.saveFileBeforeRun": false,
-    // 
-    "code-runner.cwd": "${workspaceRoot}",
-    // Enable telemetry
-    "code-runner.enableAppInsights": false,
-    //
-    // Gitlens
     //
 }
