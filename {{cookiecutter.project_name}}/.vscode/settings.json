@@ -66,6 +66,8 @@
     "editor.cursorBlinking": "solid",
     // Controls whether the minimap is shown.
     "editor.minimap.enabled": false,
+    // Controls whether the editor should render the vertical glyph margin. Glyph margin is mostly used for debugging.
+    "editor.glyphMargin": true,
     // Controls whether the editor has code folding enabled.
     "editor.folding": false,
     // Controls the visibility of the vertical scrollbar.
@@ -102,6 +104,10 @@
     "explorer.sortOrder": "filesFirst",
     //
     //
+    // Controls if the number of opened editors should be limited or not. When enabled, less recently used editors will close to make space for newly opening editors.
+    "workbench.editor.limit.enabled": true,
+    // Controls the maximum number of opened editors. Use the `workbench.editor.limit.perEditorGroup` setting to control this limit per editor group or across all groups.
+    "workbench.editor.limit.value": 4,
     // Controls the visibility of the status bar at the bottom of the workbench.
     "workbench.statusBar.visible": false,
     // Controls whether editor file decorations should use badges.
@@ -113,6 +119,12 @@
     // Controls where editors open. Select `left` or `right` to open editors to the left or right of the currently active one. 
     // Select `first` or `last` to open editors independently from the currently active one.
     "workbench.editor.openPositioning": "last",
+    // Controls whether lists and trees have smooth scrolling.
+    "workbench.list.smoothScrolling": true,
+    // When enabled, will show the watermark tips when no editor is open.
+    "workbench.tips.enabled": false,
+    // Controls whether opened editors should show with an icon or not. This requires a file icon theme to be enabled as well.
+    "workbench.editor.showIcons": false,
     // Specifies the theme used in the workbench.
     "workbench.colorTheme": "One Dark Pro Flat",
     // Specifies the file icon theme used in the workbench or 'null' to not show any file icons.
