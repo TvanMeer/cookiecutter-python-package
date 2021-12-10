@@ -77,6 +77,8 @@
     "editor.scrollbar.vertical": "hidden",
     // Controls whether the editor will scroll using an animation.
     "editor.smoothScrolling": true,
+    // A multiplier to be used on the `deltaX` and `deltaY` of mouse wheel scroll events.
+    "editor.mouseWheelScrollSensitivity": 5,
     // Controls whether the editor should allow moving selections via drag and drop.
     "editor.dragAndDrop": false,
     // Controls whether copying without a selection copies the current line.
@@ -141,7 +143,5 @@
     // Whether to enable file links in the terminal. 
     // Links can be slow when working on a network drive in particular because each file link is verified against the file system.
     // Changing this will take effect only in new terminals.
-    "terminal.integrated.enableFileLinks": false,
-    // Whether to show hovers for links in the terminal output.
-    "terminal.integrated.showLinkHover": false,
+    "terminal.integrated.enableFileLinks": false
 }
