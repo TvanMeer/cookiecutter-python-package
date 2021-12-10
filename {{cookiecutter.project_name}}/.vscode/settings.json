@@ -110,8 +110,6 @@
     // Preview editors do not keep open and are reused until explicitly set to be kept open 
     // (e.g. via double click or editing) and show up with an italic font style.
     "workbench.editor.enablePreview": false,
-    // Controls the visibility of the activity bar in the workbench.
-    "workbench.activityBar.visible": false,
     // Controls where editors open. Select `left` or `right` to open editors to the left or right of the currently active one. 
     // Select `first` or `last` to open editors independently from the currently active one.
     "workbench.editor.openPositioning": "last",
@@ -122,4 +120,16 @@
     //  - vs-minimal
     //  - vs-seti
     "workbench.iconTheme": null,
+    //
+    //
+    // Controls whether bold text in the terminal will always use the "bright" ANSI color variant.
+    "terminal.integrated.drawBoldTextInBrightColors": false,
+    // A multiplier to be used on the `deltaY` of mouse wheel scroll events.
+    "terminal.integrated.mouseWheelScrollSensitivity": 5,
+    // Whether to enable file links in the terminal. 
+    // Links can be slow when working on a network drive in particular because each file link is verified against the file system.
+    // Changing this will take effect only in new terminals.
+    "terminal.integrated.enableFileLinks": false,
+    // Whether to show hovers for links in the terminal output.
+    "terminal.integrated.showLinkHover": false,
 }
