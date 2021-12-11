@@ -121,7 +121,7 @@
     // In such a form, single child folders will be compressed in a combined tree element. Useful for Java package structures, for example.
     "explorer.compactFolders": false,
     // Controls whether file decorations should use badges.
-    "explorer.decorations.badges": true,
+    "explorer.decorations.badges": false,
     // Controls the property-based sorting of files and folders in the explorer.
     //  - default: Files and folders are sorted by their names. Folders are displayed before files.
     //  - mixed: Files and folders are sorted by their names. Files are interwoven with folders.
@@ -170,5 +170,14 @@
     // Whether to enable file links in the terminal. 
     // Links can be slow when working on a network drive in particular because each file link is verified against the file system.
     // Changing this will take effect only in new terminals.
-    "terminal.integrated.enableFileLinks": false
+    "terminal.integrated.enableFileLinks": false,
+    // When set the foreground color of each cell will change to try meet the contrast ratio specified. Example values:
+    //
+    // - 1: The default, do nothing.
+    // - 4.5: WCAG AA compliance (minimum).
+    // - 7: WCAG AAA compliance (enhanced).
+    // - 21: White on black or black on white.
+    "terminal.integrated.minimumContrastRatio": 10,
+    // Controls the maximum amount of lines the terminal keeps in its buffer.
+    "terminal.integrated.scrollback": 100,
 }
