@@ -60,6 +60,29 @@
     "breadcrumbs.enabled": false,
     //
     //
+    // Controls whether bracket pair colorization is enabled or not.
+    // Use 'workbench.colorCustomizations' to override the bracket highlight colors.
+    "editor.bracketPairColorization.enabled": true,
+    // Controls the font family.
+    "editor.fontFamily": "DejaVu Sans Mono, monospace",
+    // Controls the font size in pixels.
+    "editor.fontSize": 14,
+    // Configures font ligatures or font features. 
+    // Can be either a boolean to enable/disable ligatures or a string for the value of the CSS 'font-feature-settings' property.
+    "editor.fontLigatures": false,
+    // Controls the line height.
+    //  - Use 0 to automatically compute the line height from the font size.
+    //  - Values between 0 and 8 will be used as a multiplier with the font size.
+    //  - Values greater than or equal to 8 will be used as effective values.
+    "editor.lineHeight": 1.4,
+    // Controls the display of line numbers.
+    //  - off: Line numbers are not rendered.
+    //  - on: Line numbers are rendered as absolute number.
+    //  - relative: Line numbers are rendered as distance in lines to cursor position.
+    //  - interval: Line numbers are rendered every 10 lines.
+    "editor.lineNumbers": "off",
+    // Controls whether the editor should detect links and make them clickable.
+    "editor.links": false,
     // Controls the cursor style.
     "editor.cursorStyle": "block-outline",
     // Control the cursor animation style.
@@ -136,6 +159,8 @@
     "workbench.iconTheme": null,
     //
     //
+    // Controls the font size in pixels of the terminal.
+    "terminal.integrated.fontSize": 14,
     // Controls whether bold text in the terminal will always use the "bright" ANSI color variant.
     "terminal.integrated.drawBoldTextInBrightColors": false,
     // A multiplier to be used on the `deltaY` of mouse wheel scroll events.
