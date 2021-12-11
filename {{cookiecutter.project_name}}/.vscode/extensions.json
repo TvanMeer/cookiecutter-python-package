@@ -2,6 +2,6 @@
     "recommendations": [
         "ms-python.python",
         "ms-python.vscode-pylance",
-        "zhuangtongfa.material-theme",
+        "danields761.dracula-theme-from-intellij-pythoned"
     ]
 }

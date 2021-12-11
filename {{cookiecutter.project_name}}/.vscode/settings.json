@@ -64,7 +64,9 @@
     // Use 'workbench.colorCustomizations' to override the bracket highlight colors.
     "editor.bracketPairColorization.enabled": true,
     // Controls the font family.
-    "editor.fontFamily": "DejaVu Sans Mono, monospace",
+    "editor.fontFamily": "'DejaVu Sans Mono', 'monospace'",
+    // Bold font
+    "editor.fontWeight": "600",
     // Controls the font size in pixels.
     "editor.fontSize": 14,
     // Configures font ligatures or font features. 
@@ -151,7 +153,7 @@
     // Controls whether opened editors should show with an icon or not. This requires a file icon theme to be enabled as well.
     "workbench.editor.showIcons": false,
     // Specifies the theme used in the workbench.
-    "workbench.colorTheme": "One Dark Pro Flat",
+    "workbench.colorTheme": "Darcula Theme 2.0",
     // Specifies the file icon theme used in the workbench or 'null' to not show any file icons.
     //  - null: No file icons
     //  - vs-minimal
