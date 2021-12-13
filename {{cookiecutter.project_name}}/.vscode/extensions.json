@@ -3,6 +3,8 @@
         "ms-python.python",
         "ms-python.vscode-pylance",
         "danields761.dracula-theme-from-intellij-pythoned",
-        "tamasfe.even-better-toml"
+        "tamasfe.even-better-toml",
+        "almenon.arepl",
+        "kevinrose.vsc-python-indent"
     ]
 }
