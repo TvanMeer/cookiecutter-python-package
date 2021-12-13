@@ -2,6 +2,7 @@
     "recommendations": [
         "ms-python.python",
         "ms-python.vscode-pylance",
-        "danields761.dracula-theme-from-intellij-pythoned"
+        "danields761.dracula-theme-from-intellij-pythoned",
+        "tamasfe.even-better-toml"
     ]
 }

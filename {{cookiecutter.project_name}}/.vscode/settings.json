@@ -186,4 +186,25 @@
     "debug.terminal.clearBeforeReusing": true,
     // Controls the location of the debug toolbar. Either `floating` in all views, `docked` in the debug view, or `hidden`.
     "debug.toolBarLocation": "docked",
+    //
+    //
+    // Toml plugin settings
+    //
+    // Align consecutive entries vertically.
+    "evenBetterToml.formatter.alignEntries": true,
+    // Maximum column width in characters, affects array expansion and collapse, this doesn't take whitespace into account.
+    // Note that this is not set in stone, and works on a best-effort basis.
+    "evenBetterToml.formatter.columnWidth": 88,
+    // Alphabetically reorder keys that are not separated by empty lines.
+    "evenBetterToml.formatter.reorderKeys": true,
+    // Allign comments next to entries.
+    "evenBetterToml.formatter.alignComments": true,
+    // Show the "Paste JSON as TOML" command in the palette.
+    "evenBetterToml.commands.pasteJsonAsToml": true,
+    // Enable validation schema.
+    "evenBetterToml.schema.enabled": true,
+    // k=regex that matches pyproject.toml files, v=file with schema.
+    "evenBetterToml.schema.associations": {
+        ".*pyproject\\.toml": "./.vscode/pyproject.toml.json",
+    }
 }
