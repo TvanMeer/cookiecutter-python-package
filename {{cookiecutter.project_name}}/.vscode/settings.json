@@ -1,6 +1,6 @@
 {
     //
-    // Python Vscode extention settings
+    // Python Vscode extension settings
     //
     //
     "python.pythonPath": "${workspaceFolder}/.venv/bin/python",
@@ -194,7 +194,7 @@
     "evenBetterToml.formatter.alignEntries": true,
     // Maximum column width in characters, affects array expansion and collapse, this doesn't take whitespace into account.
     // Note that this is not set in stone, and works on a best-effort basis.
-    "evenBetterToml.formatter.columnWidth": 88,
+    "evenBetterToml.formatter.columnWidth": {{cookiecutter.editor_line_length}},
     // Alphabetically reorder keys that are not separated by empty lines.
     "evenBetterToml.formatter.reorderKeys": true,
     // Allign comments next to entries.
