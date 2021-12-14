@@ -37,6 +37,10 @@
     "python.linting.pylintPath": "${workspaceFolder}/.venv/bin/pylint",
     //
     //
+    // Python type hint extension settings
+    "workspace.searchEnabled": false,
+    //
+    //
     // General settings
     //
     //
