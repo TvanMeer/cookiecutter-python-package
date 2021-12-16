@@ -16,6 +16,8 @@ black = {version = "*", allow-prereleases = true}
 isort = "^5.10.1"
 pylint = "2.12.1"
 pytest = "6.2.5"
+Sphinx = "^4.3.1"
+myst-parser = "^0.16.0"
 
 [tool.pytest.ini_options]
 testpaths = [
