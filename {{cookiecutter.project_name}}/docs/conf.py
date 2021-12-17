@@ -17,9 +17,9 @@
 
 # -- Project information -----------------------------------------------------
 
-project = "project-name-here"
-copyright = "2021, author-name-here"
-author = "author-name-here"
+project = "{{cookiecutter.project_name}}"
+copyright = "{% now 'utc', '%Y' %}, {{cookiecutter.author_name}}"
+author = "{{cookiecutter.author_name}}"
 
 # The full version, including alpha/beta/rc tags
 release = "0.1alpha"

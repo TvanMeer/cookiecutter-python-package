@@ -1,9 +1,8 @@
-.. project-name-here documentation master file, created by
-   sphinx-quickstart on Thu Dec 16 08:29:34 2021.
+.. {{cookiecutter.project_name}} documentation master file.
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to project-name-here's documentation!
+Welcome to {{cookiecutter.project_name}}'s documentation!
 =============================================
 
 .. toctree::
