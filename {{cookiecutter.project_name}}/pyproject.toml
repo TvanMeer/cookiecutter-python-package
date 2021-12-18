@@ -18,6 +18,7 @@ pylint = "2.12.1"
 pytest = "6.2.5"
 Sphinx = "^4.3.1"
 myst-parser = "^0.16.0"
+furo = "^2021.11.23"
 
 [tool.pytest.ini_options]
 testpaths = [
