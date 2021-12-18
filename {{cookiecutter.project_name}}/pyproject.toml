@@ -1,32 +1,29 @@
 [tool.poetry]
-authors = ["{{cookiecutter.author_name}} <{{cookiecutter.author_email}}>"]
+authors     = ["{{cookiecutter.author_name}} <{{cookiecutter.author_email}}>"]
 description = "{{cookiecutter.project_description}}"
-homepage = "https://github.com/{{cookiecutter.author_github_name}}/{{cookiecutter.project_name}}"
-license = "MIT"
-name = "{{cookiecutter.project_name}}"
-readme = "README.md"
-repository = "https://github.com/{{cookiecutter.author_github_name}}/{{cookiecutter.project_name}}.git"
-version = "0.1.0"
+homepage    = "https://github.com/{{cookiecutter.author_github_name}}/{{cookiecutter.project_name}}"
+license     = "MIT"
+name        = "{{cookiecutter.project_name}}"
+readme      = "README.md"
+repository  = "https://github.com/{{cookiecutter.author_github_name}}/{{cookiecutter.project_name}}.git"
+version     = "0.1.0"
 
 [tool.poetry.dependencies]
 python = "3.10"
 
 [tool.poetry.dev-dependencies]
-black = {version = "*", allow-prereleases = true}
-isort = "^5.10.1"
-pylint = "2.12.1"
-pytest = "6.2.5"
-Sphinx = "^4.3.1"
+Sphinx      = "^4.3.1"
+black       = { version = "*", allow-prereleases = true }
+furo        = "^2021.11.23"
+isort       = "^5.10.1"
 myst-parser = "^0.16.0"
-furo = "^2021.11.23"
+pylint      = "2.12.1"
+pytest      = "6.2.5"
 
 [tool.pytest.ini_options]
-testpaths = [
-  "tests",
-]
+testpaths = ["tests"]
 
 [tool.black]
-line-length = {{cookiecutter.editor_line_length}}
 exclude = '''
 (
   /(
@@ -41,15 +38,16 @@ exclude = '''
 )
 '''
 include = '\.pyi?$'
-target-version = ['py310']
+line-length = {{cookiecutter.editor_line_length}}
+target-version  = ['py310']
 
 [tool.isort]
 profile = "black"
 
 [tool.pylint.messages_control]
+disable         = "C0330, C0326"
 max-line-length = {{cookiecutter.editor_line_length}}
-disable = "C0330, C0326"
 
 [build-system]
 build-backend = "poetry.core.masonry.api"
-requires = ["poetry-core>=1.0.0"]
+requires      = ["poetry-core>=1.0.0"]
