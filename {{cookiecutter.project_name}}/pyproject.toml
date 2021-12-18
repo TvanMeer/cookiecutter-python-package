@@ -1,11 +1,11 @@
 [tool.poetry]
-authors     = ["Thomas van Meer <tvanmeer123@gmail.com>"]
-description = "A crypto trading bot."
-homepage    = "https://github.com/tvanmeer/scalpr2"
+authors     = ["{{cookiecutter.author_name}} <{{cookiecutter.author_email}}>"]
+description = "{{cookiecutter.project_description}}"
+homepage    = "https://github.com/{{cookiecutter.author_github_name}}/{{cookiecutter.project_name}}"
 license     = "MIT"
-name        = "scalpr2"
+name        = "{{cookiecutter.project_name}}"
 readme      = "README.md"
-repository  = "https://github.com/tvanmeer/scalpr2.git"
+repository  = "https://github.com/{{cookiecutter.author_github_name}}/{{cookiecutter.project_name}}.git"
 version     = "0.1.0"
 
 [tool.poetry.dependencies]
@@ -38,15 +38,19 @@ exclude = '''
 )
 '''
 include = '\.pyi?$'
-line-length = 88
-target-version = ['py310']
+line-length = {{cookiecutter.editor_line_length}}
+target-version  = ['py310']
 
 [tool.isort]
 profile = "black"
 
 [tool.pylint.messages_control]
 disable         = "C0330, C0326"
-max-line-length = 88
+max-line-length = {{cookiecutter.editor_line_length}}
+
+[build-system]
+build-backend = "poetry.core.masonry.api"
+requires      = ["poetry-core>=1.0.0"]
 
 [build-system]
 build-backend = "poetry.core.masonry.api"
