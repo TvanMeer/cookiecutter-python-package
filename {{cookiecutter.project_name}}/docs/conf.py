@@ -22,7 +22,7 @@ author = "{{cookiecutter.author_name}}"
 copyright = "{% now 'utc', '%Y' %}, {{cookiecutter.author_name}}"
 
 # The full version, including alpha/beta/rc tags
-release = "v0.0.1-alpha"
+release = "{{cookiecutter.version}}"
 
 # -- General configuration ---------------------------------------------------
 

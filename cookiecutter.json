@@ -1,8 +1,9 @@
 {
     "project_name": "my_pypackage",
     "project_description": "A demo python package, generated with cookiecutter-python-package.",
+    "version": "v0.0.1-alpha",
     "author_name": "John Doe",
     "author_email": "johndoe@example.com",
-    "author_github_name": "johnnyDoe",
+    "author_github_name": "jDoe",
     "editor_line_length": 88
 }
