@@ -13,6 +13,8 @@ poetry lock
 # Build tarball and wheel in dist folder
 # poetry build
 
+# Build documentation
+make ./docs/html
 
 echo "Project created succesfully!"
 
