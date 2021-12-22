@@ -14,7 +14,11 @@ poetry lock
 # poetry build
 
 # Build documentation
-make ./docs/html
+source .venv/bin/activate
+cd ./docs
+make html
+cd ..
+deactivate
 
 echo "Project created succesfully!"
 
