@@ -18,12 +18,11 @@
 # -- Project information -----------------------------------------------------
 
 project = "{{cookiecutter.project_name}}"
-copyright = "{% now 'utc', '%Y' %}, {{cookiecutter.author_name}}"
 author = "{{cookiecutter.author_name}}"
+copyright = "{% now 'utc', '%Y' %}, {{cookiecutter.author_name}}"
 
 # The full version, including alpha/beta/rc tags
-release = "0.1alpha"
-
+release = "v0.0.1-alpha"
 
 # -- General configuration ---------------------------------------------------
 
@@ -43,8 +42,7 @@ exclude_patterns = ["_build", "Thumbs.db", ".DS_Store"]
 
 # -- Options for HTML output -------------------------------------------------
 
-# The theme to use for HTML and HTML Help pages.  See the documentation for
-# a list of builtin themes.
+# The theme to use for HTML and HTML Help pages.
 #
 html_theme = "furo"
 
