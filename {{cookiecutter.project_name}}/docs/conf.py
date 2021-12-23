@@ -56,14 +56,14 @@ html_static_path = ["_static"]
 #
 html_theme_options = {
     "light_css_variables": {
-        "color-brand-primary": "#7C4DFF",
-        "color-brand-content": "#7C4DFF",
-        "color-admonition-background": "orange",
+        "color-brand-primary": "darkblue",
+        "color-brand-content": "darkblue",
+        "color-admonition-background": "lightblue",
     },
     "dark_css_variables": {
-        "color-brand-primary": "#7C4DFF",
-        "color-brand-content": "#7C4DFF",
-        "color-admonition-background": "orange",
+        "color-brand-primary": "lightgray",
+        "color-brand-content": "lightgray",
+        "color-admonition-background": "darkgray",
     },
     # Logo style
     "light_logo": "logo-light-mode.png",
