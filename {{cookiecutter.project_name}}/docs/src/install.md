@@ -1,3 +1,3 @@
-# Page 3
+# Installation
 
 Some **text**!
