@@ -24,6 +24,6 @@ then
 
     # Build documentation and start liveserver
     echo "Starting documentation liveserver..."
-    .venv/bin/python .venv/bin/sphinx-autobuild docs docs/_build/html
+    .venv/bin/python .venv/bin/sphinx-autobuild docs docs/_build/html --open-browser
     exit
 fi
