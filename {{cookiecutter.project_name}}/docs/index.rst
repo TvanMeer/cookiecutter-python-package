@@ -8,11 +8,12 @@ Welcome to {{cookiecutter.project_name}}'s documentation!
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
-   page1.md
-   page2.md
-   page3.md
-   page4.md
-   page5.md
+
+   src/page1.md
+   src/page2.md
+   src/page3.md
+   src/page4.md
+   src/page5.md
 
 
 
