@@ -69,6 +69,8 @@ html_theme_options = {
     "light_logo": "logo-light-mode.png",
     "dark_logo": "logo-dark-mode.png",
     "sidebar_hide_name": True,
+    # Enable keyboard navigation
+    "navigation_with_keys": True,
 }
 # Codeblock style
 pygments_style = "sphinx"
