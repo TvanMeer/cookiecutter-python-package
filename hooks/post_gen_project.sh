@@ -13,20 +13,17 @@ poetry lock
 # Build tarball and wheel in dist folder
 # poetry build
 
-# Build documentation
-source .venv/bin/activate
-cd ./docs
-make html
-cd ..
-deactivate
-
 echo "Project created succesfully!"
 
 
-# Open fresh project in Vscode
+# Open new project in Vscode
 if ! command -v code &> /dev/null
 then
-    echo "Trying to open Vscode..."
+    echo "Opening Vscode..."
     code .
+
+    # Build documentation and start liveserver
+    echo "Starting documentation liveserver..."
+    .venv/bin/python .venv/bin/sphinx-autobuild docs docs/_build/html
     exit
 fi
