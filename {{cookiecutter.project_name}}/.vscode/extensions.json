@@ -7,6 +7,7 @@
         "almenon.arepl",
         "kevinrose.vsc-python-indent",
         "njqdev.vscode-python-typehint",
+        "magicstack.magicpython",
         "yzhang.markdown-all-in-one"
     ]
 }
