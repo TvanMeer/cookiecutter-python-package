@@ -209,8 +209,8 @@
     "evenBetterToml.schema.enabled": true,
     // k=regex that matches pyproject.toml files, v=file with schema.
     "evenBetterToml.schema.associations": {
-        ".*pyproject\\.toml": "./.vscode/pyproject.toml.json",
-    }
+        ".*pyproject\\.toml": "./.vscode/pyproject.toml.json"
+    },
     //
     //
     // Markdown all-in-one extension settings
