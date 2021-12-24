@@ -1,4 +1,7 @@
 {
+    // Configuration for running and debugging Python code in Vscode.
+    // See https://code.visualstudio.com/Docs/editor/debugging#_launch-configurations
+    //
     "version": "0.2.0",
     "configurations": [
         {
