@@ -211,4 +211,18 @@
     "evenBetterToml.schema.associations": {
         ".*pyproject\\.toml": "./.vscode/pyproject.toml.json",
     }
+    //
+    //
+    // Markdown all-in-one plugin settings
+    //
+    // The root folder for path auto-completion.
+    "markdown.extension.completion.root": "${workspaceFolder}",
+    // Enable basic math support (powered by KaTex). Might not render properly in Sphinx.
+    "markdown.extension.math.enabled": false,
+    // Auto show preview to side.
+    "markdown.extension.preview.autoShowPreviewToSide": true,
+    // Convert image path to absolute path.
+    "markdown.extension.print.absoluteImgPath": false,
+    // Include VsCode's basic Markdown styles so that the exported HTML looks similar as inside VS Code.
+    "markdown.extension.print.includeVscodeStylesheets": false
 }

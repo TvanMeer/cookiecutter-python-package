@@ -6,6 +6,7 @@
         "tamasfe.even-better-toml",
         "almenon.arepl",
         "kevinrose.vsc-python-indent",
-        "njqdev.vscode-python-typehint"
+        "njqdev.vscode-python-typehint",
+        "yzhang.markdown-all-in-one"
     ]
 }
