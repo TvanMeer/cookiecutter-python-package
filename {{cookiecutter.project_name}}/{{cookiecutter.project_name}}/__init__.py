@@ -1,3 +1,3 @@
-__version__ = '0.1.0'
+__version__ = "{{cookiecutter.version}}"
 
 from {{cookiecutter.project_name}}.client import Client # noqa
