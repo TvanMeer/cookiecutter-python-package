@@ -192,7 +192,7 @@
     "debug.toolBarLocation": "docked",
     //
     //
-    // Toml plugin settings
+    // Toml extension settings
     //
     // Align consecutive entries vertically.
     "evenBetterToml.formatter.alignEntries": true,
@@ -213,7 +213,7 @@
     }
     //
     //
-    // Markdown all-in-one plugin settings
+    // Markdown all-in-one extension settings
     //
     // The root folder for path auto-completion.
     "markdown.extension.completion.root": "${workspaceFolder}",
@@ -225,4 +225,16 @@
     "markdown.extension.print.absoluteImgPath": false,
     // Include VsCode's basic Markdown styles so that the exported HTML looks similar as inside VS Code.
     "markdown.extension.print.includeVscodeStylesheets": false
+    //
+    //
+    // Autodocstring extension settings
+    //
+    // Switch between different docstring formats.
+    "autoDocstring.docstringFormat": "numpy",
+    // Generate the docstring on pressing enter after opening docstring
+    "autoDocstring.generateDocstringOnEnter": true,
+    // Include extended summary section in docstring
+    "autoDocstring.includeExtendedSummary": true,
+    // Infer types from type hints, default values and variable names
+    "autoDocstring.guessTypes": true
 }
