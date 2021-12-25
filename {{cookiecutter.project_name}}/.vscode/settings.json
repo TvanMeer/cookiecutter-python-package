@@ -224,13 +224,17 @@
     // Convert image path to absolute path.
     "markdown.extension.print.absoluteImgPath": false,
     // Include VsCode's basic Markdown styles so that the exported HTML looks similar as inside VS Code.
-    "markdown.extension.print.includeVscodeStylesheets": false
+    "markdown.extension.print.includeVscodeStylesheets": false,
     //
     //
     // Autodocstring extension settings
     //
     // Switch between different docstring formats.
     "autoDocstring.docstringFormat": "google",
+    // Custom doctring, without type placeholders.
+    "autoDocstring.customTemplatePath": ".vscode/custom_dockstring.mustache",
+    // Switch of debugging info that is printed for custom docstring.
+    "autoDocstring.logLevel": "None",
     // Infer types from type hints, default values and variable names
     "autoDocstring.guessTypes": true,
     // Generate the docstring on pressing enter after opening docstring
