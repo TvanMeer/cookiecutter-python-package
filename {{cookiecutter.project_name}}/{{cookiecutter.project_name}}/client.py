@@ -52,7 +52,7 @@ class Client:
             arg1 (int): Description of arg1.
 
         Keyword Args:
-            arg2 (str): Description of arg2. Defaults to "foo".
+            arg2 (str, optional): Description of arg2. Defaults to "foo".
 
         Returns:
             bool: Some return value
@@ -62,11 +62,11 @@ class Client:
                 that are relevant to the interface.
             ValueError: If `param2` is equal to `param1`.
 
+        Warns:
+            UserWarning: A sample warning. See https://docs.python.org/3/library/warnings.html
+
         Note:
             Do not include the `self` parameter in the ``Args`` section.
-
-        Attention:
-            Some attention message.
 
         Hint:
             Some hint message.
@@ -80,6 +80,12 @@ class Client:
         Caution:
             Some caution message.
 
+        Warning:
+            Some warning message.
+
+        Attention:
+            Some attention message.
+
         Danger:
             Some danger message.
 
@@ -87,10 +93,13 @@ class Client:
             Some error message.
 
         References:
-            Some reference.
+            .. [1] `A link <https://github.com/TvanMeer/cookiecutter-python-package>`_, \
+            Some description of an external source that is an API reference.
+            
 
         See Also:
-            func1: Is related to this function
+            func_1: The related `func_1`
+            
 
         Examples:
             Examples should be written in doctest format, and should illustrate how
@@ -98,6 +107,7 @@ class Client:
 
             >>> print([i for i in example_generator(4)])
             [0, 1, 2, 3]
+
         """
         y = Y()
         succes = y.do_something()
