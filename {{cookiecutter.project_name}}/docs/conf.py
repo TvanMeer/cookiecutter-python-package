@@ -60,14 +60,14 @@ html_static_path = ["_static"]
 #
 html_theme_options = {
     "light_css_variables": {
-        "color-brand-primary": "darkblue",
-        "color-brand-content": "darkblue",
-        "color-admonition-background": "lightblue",
+        "color-brand-primary": "black",
+        "color-brand-content": "black",
+        "color-admonition-background": "white",
     },
     "dark_css_variables": {
         "color-brand-primary": "lightgray",
         "color-brand-content": "lightgray",
-        "color-admonition-background": "darkgray",
+        "color-admonition-background": "#272822",
     },
     # Logo style
     "light_logo": "logo-light-mode.png",
