@@ -30,8 +30,9 @@ release = "{{cookiecutter.version}}"
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = [
-    "sphinx.ext.autodoc",
     "sphinx.ext.napoleon",
+    "sphinx.ext.autodoc",
+    "sphinx_autodoc_typehints",
     "myst_parser"
 ]
 
@@ -97,3 +98,10 @@ napoleon_use_rtype = True
 napoleon_use_keyword = True
 napoleon_custom_sections = None
 napoleon_attr_annotations = True
+
+
+# -- Options for sphinx_autodoc_typehints -----------------------------------
+# See https://github.com/agronholm/sphinx-autodoc-typehints
+
+always_document_param_types = True
+

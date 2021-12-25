@@ -12,14 +12,15 @@ version     = "{{cookiecutter.version}}"
 python = "3.10"
 
 [tool.poetry.dev-dependencies]
-black            = { version = "*", allow-prereleases = true }
-furo             = "^2021.11.23"
-isort            = "^5.10.1"
-myst-parser      = "^0.16.1"
-pylint           = "2.12.1"
-pytest           = "6.2.5"
-sphinx           = "^4.3.1"
-sphinx-autobuild = "*"
+black                    = { version = "*", allow-prereleases = true }
+furo                     = "^2021.11.23"
+isort                    = "^5.10.1"
+myst-parser              = "^0.16.1"
+pylint                   = "2.12.1"
+pytest                   = "6.2.5"
+sphinx                   = "^4.3.1"
+sphinx-autobuild         = "*"
+sphinx-autodoc-typehints = "*"
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
