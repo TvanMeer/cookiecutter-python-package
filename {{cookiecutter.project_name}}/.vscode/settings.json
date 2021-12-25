@@ -231,12 +231,8 @@
     //
     // Switch between different docstring formats.
     "autoDocstring.docstringFormat": "google",
-    // Custom doctring, without type placeholders.
-    "autoDocstring.customTemplatePath": ".vscode/docstr_custom.mustache",
-    // Switch of debugging info that is printed for custom docstring.
-    "autoDocstring.logLevel": "None",
     // Infer types from type hints, default values and variable names
-    "autoDocstring.guessTypes": false,
+    "autoDocstring.guessTypes": true,
     // Generate the docstring on pressing enter after opening docstring
     "autoDocstring.generateDocstringOnEnter": true,
     // Include extended summary section in docstring
