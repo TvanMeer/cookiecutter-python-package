@@ -14,7 +14,7 @@ class Client:
     and setter.
 
     Args:
-        arg1 (int): Some argument passed to the `__init__` function.
+        arg1: Some argument passed to the `__init__` function.
 
     Attributes:
         attr1 (int): Some attribute
@@ -50,8 +50,6 @@ class Client:
 
         Args:
             arg1: Description of arg1.
-
-        Keyword Args:
             arg2: Description of arg2. Defaults to "foo".
 
         Returns:
