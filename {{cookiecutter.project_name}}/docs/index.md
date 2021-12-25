@@ -14,6 +14,13 @@ src/getting-started
 ```
 
 ```{toctree}
+:caption: API Reference
+:hidden:
+
+src/api_reference/client
+```
+
+```{toctree}
 :caption: Development Doc
 :hidden:
 
