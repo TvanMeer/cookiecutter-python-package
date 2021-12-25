@@ -32,8 +32,8 @@ class Client:
         renders this inline documentation. Google style inline docs are used.
 
         Args:
-            arg1 (int): Argument 1
-            arg2 (list[str]): Argument 2
+            arg1: Argument 1
+            arg2: Argument 2
 
         Returns:
             bool: Some return value
@@ -49,10 +49,10 @@ class Client:
         for a function.
 
         Args:
-            arg1 (int): Description of arg1.
+            arg1: Description of arg1.
 
         Keyword Args:
-            arg2 (str, optional): Description of arg2. Defaults to "foo".
+            arg2: Description of arg2. Defaults to "foo".
 
         Returns:
             bool: Some return value
@@ -98,7 +98,7 @@ class Client:
             
 
         See Also:
-            func_1: The related `func_1`
+            func_1: The related ``func_1``
             
 
         Examples:
